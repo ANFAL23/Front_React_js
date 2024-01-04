@@ -1,0 +1,67 @@
+/* styles.css */
+
+.pokemon-table-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container {
+   
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+  @media screen and (min-width: 600px) {
+    .search-container {
+      flex-direction: row;
+     
+    }
+  }
+  
+  .MinMax{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  span{margin-right: 20px;}
+  .table-container {
+   
+    max-width: max-content;   
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+  }
+  
+  .responsive-table {
+    max-width: max-content;
+    max-height :100px;
+    overflow: hidden;
+    
+  }
+  
+  
+  .pagination-container {
+   
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+
+  }
+  
+  @media screen and (min-width: 600px) {
+    .pagination-container {
+     margin-top: 10px;
+      flex-direction: row;
+      align-items: center;
+      max-width: max-content;
+      
+    }
+  }
+  label{
+    margin-right: 20px;
+  }
+  select{margin-right: 20px;}
+  
